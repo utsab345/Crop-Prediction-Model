@@ -1,0 +1,48 @@
+body {
+    background-image: url('/static/farm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 100px auto 150px auto;
+    max-width: 70%;
+}
+
+h1 {
+    text-align: left; /* Aligns the text to the left */
+    margin-left: 60px; /* Moves the text slightly to the left */
+    font-size: 36px; /* Adjust the size of the heading if needed */
+    color: black; /* Adds a color to match the design */
+    font-weight: bold; /* Makes the text bold */
+}
+
+
+input {
+    width: 70%;
+    margin: 0.5%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+    border-radius: 14px;
+}
+
+button {
+    background-color: #4caf50;
+    color: black;
+    padding: 15px 100px;
+    text-align: center;
+    border-radius: 14px;
+    display: inline-block;
+    margin: 20px auto;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+#pred {
+    margin-left: 60px;
+    color: black;
+}
